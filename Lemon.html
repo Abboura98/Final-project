@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style_lemon.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+         <title>Final Project</title>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+         <script src="./Mylemon.js" async></script>
+    </head>
+    <body>
+
+    <header> 
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2"><img id="logo1" src="lemoni.png" alt="Lemon" ></div>
+            <div class="col-md-10"><p>L&nbsp;I&nbsp;T&nbsp;T&nbsp;L&nbsp;E &nbsp;&nbsp;L&nbsp;E&nbsp;M&nbsp;O&nbsp;N</p> </div>
+        </div>
+
+      <!--CART ICON-->
+        <div class="cart-info" id="cart-info">
+          <span class="cart-info-icon">
+            <i class="fas fa-shopping-cart"></i>
+            </span>
+            <p><span id="item-count">0</span>items
+
+            </p>
+        </div>
+<!--END-->
+
+<!--CART-->
+<section>
+
+<div class="cart" id="cart">
+  <h1 class="section-header">CART</h1>
+  <div class="cart-row">
+    <span class="cart-item cart-header cart-column">ITEM</span>
+    <span class="cart-price cart-header cart-column">PRICE</span>
+    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+</div>
+<div class="cart-items">
+</div>
+<div class="cart-total">  
+  <strong class="cart-total-title">
+    TOTAL </strong>
+    <span class="cart-total-price">0 Dhs </span>
+</div>
+<button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+
+</section>
+
+    </header>
+        <div class="menu">
+        <ul>
+        <li> <a href="#"> Home </a></li>
+        <li> <a href="#">Menu </a></li>
+        <li > <a href="#"> Book </a></li>
+        <li> <a href="#"> About </a></li>
+     </ul> 
+     </div>
+    
+
+   <section> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="lemon-health-benefits-1296x728-feature.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5> 30% Off This Weekend</h5>
+            <p> Come and degust our freshly picked lemons from the farm</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="shutterstock_324427688-11_640x360.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5> 30% Off This Weekend</h5>
+            <p> Come and degust our freshly picked lemons from the farm</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="boy-tries-lemon-for-the-first-time_640x360.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5> 30% Off This Weekend</h5>
+            <p> Come and degust our freshly picked lemons from the farm</p>
+          </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+</section>  
+
+<section>
+    <div class="Main">
+
+<div class="Left"><h3>Our Bestseller</h3> 
+    <img src="lemonpie-removebg-preview.png" alt="Lemon" width="150px" height="100px">
+    <h3 class="product__price">35 dhs</h3>
+    <p> When life gives you lemons, we give you happiness with every slice with our special Lemon merengue pie! </p>
+    <button class="btn btn-primary ADD-TO-CART"> Add to cart </button>
+</div>
+
+<div class="Center"> <h3>Our Special Lemonade  </h3>
+    <img src="Ginger_Lemonade-removebg-preview.png" alt="Lemon" width="150px" height="120px">
+    <h3 class="product__price">45 dhs</h3>
+    <p> Zest up your life with our refreshing ginger lemonade! </p>
+    <button class="btn btn-primary ADD-TO-CART"> Add to cart </button>
+</div>
+
+<div class="Right"> <h3>Opening Hours</h3>
+    <img src="lemoni.png" alt="Lemon" width="100px" height="100px">
+    <p>Freshly squeezed flavor in every corner    Welcome to our lemon paradise  </p>
+    Mon-Fri : 2pm - 10pm<br>
+    Sat & Sun: 2pm - 9pm
+
+</div> 
+</div>
+</section>
+
+
+<section class="container1">
+  <div class="products">
+<div class="Lemon Magic Cake">
+  <img src="lemonmagic.jpg" class="product__image">
+  <h5 class="product-title">Lemon Magic Cake</h5>
+  <p> Try out our impressive 3 layers cake </p>
+  <div class="shop-item-details">
+    <h3 class="product__price">30 dhs</h3>
+<button class="btn btn-primary ADD-TO-CART">Add to cart</button>
+  </div>
+</section>
+
+
+<section class="container2">
+  <div class="products Lemonade">
+<div class="Pistachio Lemon Danish Pastry ">
+  <img src="Pistachiolemon.jpg" class="product__image">
+  <h5 class="product-title">Pistachio Lemon Danish Pastry</h5>
+  <p> Impress your family and friends with these stunning pistachio and lemon pastries </p>
+  <div class="shop-item-details">
+    <h3 class="product__price">35 dhs</h3>
+<button class="btn btn-primary ADD-TO-CART">Add to cart</button>
+  </div>
+</section>
+
+    </body>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6"><img src="limone.png" alt="Lemon" ></div>
+            <div class="col-md-6">Copyright Little Lemon </div>
+        </div>
+    </div>
+    </footer>
+
+</html>
